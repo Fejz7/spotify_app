@@ -1,4 +1,3 @@
-// Sidebar.jsx
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
@@ -22,7 +21,7 @@ const Sidebar = () => {
                 <i className="bi bi-book-fill"></i>&nbsp; Your Library
               </NavLink>
             </li>
-            {/* Aggiungi nuovi bottoni per le sezioni musicali */}
+            
             <li>
               <NavLink to="/rock" className="nav-item nav-link d-flex align-items-center">
                 <i className="bi bi-music-note"></i>&nbsp; Rock
