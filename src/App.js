@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MusicSection from './Components/MusicSection';
 import Sidebar from './Components/Sidebar';
 import './styles/styles.css';
+import Player from './Components/Player';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <Route path="/pop" element={<MusicSection sectionId="popSection" />} />
             <Route path="/hiphop" element={<MusicSection sectionId="hipHopSection" />} />
           </Routes>
+          <Player/>
         </div>
       </div>
     </Router>
